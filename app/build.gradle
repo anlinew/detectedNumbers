@@ -6,7 +6,7 @@ model {
         buildToolsVersion = "23.0.0"
 
         defaultConfig.with {
-            applicationId = "com.jnardari.opencv_androidsamples"
+            applicationId = "com.vytjan.opencv_detectedNumbers"
             minSdkVersion.apiLevel = 10
             targetSdkVersion.apiLevel = 22
             versionCode = 1

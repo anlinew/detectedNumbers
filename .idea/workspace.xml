@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AndroidLayouts">
-    <shared>
-      <config />
-    </shared>
-  </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_CUSTOM_FILTER" value="vytas" />
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="INFO" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ce5f528-4109-44fa-be2d-ebf127ff43db" name="Default" comment="" />
-    <ignored path="OpenCV-AndroidSamples.iws" />
+    <list default="true" id="f6dde109-d36b-4fae-994d-930a3731924d" name="Default" comment="" />
+    <ignored path="OpenCV-detectedNumbers.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,15 +28,15 @@
     </system>
   </component>
   <component name="FavoritesManager">
-    <favorites_list name="OpenCV-AndroidSamples" />
+    <favorites_list name="OpenCV-detectedNumbers" />
   </component>
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="FaceDetectionActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jnardari/opencv_androidsamples/activities/FaceDetectionActivity.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vytjan/opencv_detectedNumbers/activities/FaceDetectionActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3148148">
-              <caret line="66" column="17" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.46456692">
+              <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -56,7 +50,7 @@
         <entry>
           <key>
             <ExternalProjectPojo>
-              <option name="name" value="OpenCV-AndroidSamples" />
+              <option name="name" value="OpenCV-detectedNumbers" />
               <option name="path" value="$PROJECT_DIR$" />
             </ExternalProjectPojo>
           </key>
@@ -71,7 +65,7 @@
                 <option name="path" value="$PROJECT_DIR$/app" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
-                <option name="name" value="OpenCV-AndroidSamples" />
+                <option name="name" value="OpenCV-detectedNumbers" />
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
@@ -89,17 +83,17 @@
           <value>
             <list>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by root project 'OpenCV-AndroidSamples'. [incubating]" />
+                <option name="description" value="Displays the components produced by root project 'OpenCV-detectedNumbers'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="components" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in root project 'OpenCV-AndroidSamples'." />
+                <option name="description" value="Displays all dependencies declared in root project 'OpenCV-detectedNumbers'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in root project 'OpenCV-AndroidSamples'." />
+                <option name="description" value="Displays the insight into a specific dependency in root project 'OpenCV-detectedNumbers'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
@@ -114,22 +108,22 @@
                 <option name="name" value="init" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of root project 'OpenCV-AndroidSamples'. [incubating]" />
+                <option name="description" value="Displays the configuration model of root project 'OpenCV-detectedNumbers'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="model" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of root project 'OpenCV-AndroidSamples'." />
+                <option name="description" value="Displays the sub-projects of root project 'OpenCV-detectedNumbers'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="projects" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of root project 'OpenCV-AndroidSamples'." />
+                <option name="description" value="Displays the properties of root project 'OpenCV-detectedNumbers'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="properties" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from root project 'OpenCV-AndroidSamples' (some of the displayed tasks may belong to subprojects)." />
+                <option name="description" value="Displays the tasks runnable from root project 'OpenCV-detectedNumbers' (some of the displayed tasks may belong to subprojects)." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="tasks" />
               </ExternalTaskPojo>
@@ -634,56 +628,6 @@
                 <option name="name" value="clean" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:arm64-v8a:debug:arm:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileArm64-v8aDebugArmNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:arm64-v8a:debug:armv7:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileArm64-v8aDebugArmv7NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:arm64-v8a:debug:fat:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileArm64-v8aDebugFatNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:arm64-v8a:debug:mips:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileArm64-v8aDebugMipsNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:arm64-v8a:debug:x86:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileArm64-v8aDebugX86NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:arm64-v8a:release:arm:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileArm64-v8aReleaseArmNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:arm64-v8a:release:armv7:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileArm64-v8aReleaseArmv7NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:arm64-v8a:release:fat:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileArm64-v8aReleaseFatNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:arm64-v8a:release:mips:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileArm64-v8aReleaseMipsNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:arm64-v8a:release:x86:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileArm64-v8aReleaseX86NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileArmDebugAidl" />
               </ExternalTaskPojo>
@@ -730,106 +674,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileArmReleaseSources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:armeabi-v7a:debug:arm:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileArmeabi-v7aDebugArmNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:armeabi-v7a:debug:armv7:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileArmeabi-v7aDebugArmv7NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:armeabi-v7a:debug:fat:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileArmeabi-v7aDebugFatNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:armeabi-v7a:debug:mips:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileArmeabi-v7aDebugMipsNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:armeabi-v7a:debug:x86:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileArmeabi-v7aDebugX86NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:armeabi-v7a:release:arm:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileArmeabi-v7aReleaseArmNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:armeabi-v7a:release:armv7:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileArmeabi-v7aReleaseArmv7NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:armeabi-v7a:release:fat:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileArmeabi-v7aReleaseFatNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:armeabi-v7a:release:mips:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileArmeabi-v7aReleaseMipsNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:armeabi-v7a:release:x86:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileArmeabi-v7aReleaseX86NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:armeabi:debug:arm:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileArmeabiDebugArmNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:armeabi:debug:armv7:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileArmeabiDebugArmv7NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:armeabi:debug:fat:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileArmeabiDebugFatNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:armeabi:debug:mips:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileArmeabiDebugMipsNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:armeabi:debug:x86:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileArmeabiDebugX86NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:armeabi:release:arm:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileArmeabiReleaseArmNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:armeabi:release:armv7:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileArmeabiReleaseArmv7NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:armeabi:release:fat:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileArmeabiReleaseFatNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:armeabi:release:mips:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileArmeabiReleaseMipsNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:armeabi:release:x86:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileArmeabiReleaseX86NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -932,56 +776,6 @@
                 <option name="name" value="compileLint" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:mips64:debug:arm:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileMips64DebugArmNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:mips64:debug:armv7:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileMips64DebugArmv7NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:mips64:debug:fat:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileMips64DebugFatNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:mips64:debug:mips:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileMips64DebugMipsNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:mips64:debug:x86:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileMips64DebugX86NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:mips64:release:arm:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileMips64ReleaseArmNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:mips64:release:armv7:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileMips64ReleaseArmv7NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:mips64:release:fat:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileMips64ReleaseFatNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:mips64:release:mips:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileMips64ReleaseMipsNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:mips64:release:x86:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileMips64ReleaseX86NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileMipsDebugAidl" />
               </ExternalTaskPojo>
@@ -1002,28 +796,8 @@
                 <option name="name" value="compileMipsDebugAndroidTestSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:mips:debug:arm:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileMipsDebugArmNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:mips:debug:armv7:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileMipsDebugArmv7NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:mips:debug:fat:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileMipsDebugFatNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileMipsDebugJavaWithJavac" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:mips:debug:mips:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileMipsDebugMipsNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -1034,37 +808,12 @@
                 <option name="name" value="compileMipsDebugSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:mips:debug:x86:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileMipsDebugX86NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileMipsReleaseAidl" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:mips:release:arm:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileMipsReleaseArmNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:mips:release:armv7:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileMipsReleaseArmv7NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:mips:release:fat:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileMipsReleaseFatNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileMipsReleaseJavaWithJavac" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:mips:release:mips:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileMipsReleaseMipsNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -1073,11 +822,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileMipsReleaseSources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:mips:release:x86:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileMipsReleaseX86NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -1100,28 +844,8 @@
                 <option name="name" value="compileX86DebugAndroidTestSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:x86:debug:arm:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileX86DebugArmNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:x86:debug:armv7:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileX86DebugArmv7NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:x86:debug:fat:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileX86DebugFatNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileX86DebugJavaWithJavac" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:x86:debug:mips:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileX86DebugMipsNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -1132,37 +856,12 @@
                 <option name="name" value="compileX86DebugSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:x86:debug:x86:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileX86DebugX86NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileX86ReleaseAidl" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:x86:release:arm:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileX86ReleaseArmNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:x86:release:armv7:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileX86ReleaseArmv7NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:x86:release:fat:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileX86ReleaseFatNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileX86ReleaseJavaWithJavac" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:x86:release:mips:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileX86ReleaseMipsNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -1171,61 +870,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileX86ReleaseSources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:x86:release:x86:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileX86ReleaseX86NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:x86_64:debug:arm:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileX86_64DebugArmNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:x86_64:debug:armv7:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileX86_64DebugArmv7NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:x86_64:debug:fat:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileX86_64DebugFatNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:x86_64:debug:mips:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileX86_64DebugMipsNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:x86_64:debug:x86:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileX86_64DebugX86NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:x86_64:release:arm:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileX86_64ReleaseArmNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:x86_64:release:armv7:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileX86_64ReleaseArmv7NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:x86_64:release:fat:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileX86_64ReleaseFatNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:x86_64:release:mips:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileX86_64ReleaseMipsNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:x86_64:release:x86:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileX86_64ReleaseX86NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Installs and runs instrumentation tests for all flavors on connected devices." />
@@ -3370,9 +3014,9 @@
                 <option name="name" value="prepareMipsReleaseDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare OpenCV-AndroidSamples.libraries:opencv:unspecified" />
+                <option name="description" value="Prepare OpenCV-detectedNumbers.libraries:opencv:unspecified" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareOpenCVAndroidSamplesLibrariesOpencvUnspecifiedLibrary" />
+                <option name="name" value="prepareOpenCVDetectedNumbersLibrariesOpencvUnspecifiedLibrary" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -4990,56 +4634,6 @@
                 <option name="name" value="clean" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:arm64-v8a:debug:arm:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileArm64-v8aDebugArmNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:arm64-v8a:debug:armv7:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileArm64-v8aDebugArmv7NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:arm64-v8a:debug:fat:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileArm64-v8aDebugFatNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:arm64-v8a:debug:mips:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileArm64-v8aDebugMipsNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:arm64-v8a:debug:x86:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileArm64-v8aDebugX86NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:arm64-v8a:release:arm:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileArm64-v8aReleaseArmNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:arm64-v8a:release:armv7:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileArm64-v8aReleaseArmv7NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:arm64-v8a:release:fat:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileArm64-v8aReleaseFatNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:arm64-v8a:release:mips:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileArm64-v8aReleaseMipsNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:arm64-v8a:release:x86:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileArm64-v8aReleaseX86NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="compileArmDebugAidl" />
               </ExternalTaskPojo>
@@ -5086,106 +4680,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="compileArmReleaseSources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:armeabi-v7a:debug:arm:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileArmeabi-v7aDebugArmNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:armeabi-v7a:debug:armv7:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileArmeabi-v7aDebugArmv7NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:armeabi-v7a:debug:fat:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileArmeabi-v7aDebugFatNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:armeabi-v7a:debug:mips:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileArmeabi-v7aDebugMipsNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:armeabi-v7a:debug:x86:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileArmeabi-v7aDebugX86NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:armeabi-v7a:release:arm:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileArmeabi-v7aReleaseArmNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:armeabi-v7a:release:armv7:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileArmeabi-v7aReleaseArmv7NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:armeabi-v7a:release:fat:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileArmeabi-v7aReleaseFatNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:armeabi-v7a:release:mips:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileArmeabi-v7aReleaseMipsNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:armeabi-v7a:release:x86:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileArmeabi-v7aReleaseX86NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:armeabi:debug:arm:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileArmeabiDebugArmNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:armeabi:debug:armv7:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileArmeabiDebugArmv7NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:armeabi:debug:fat:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileArmeabiDebugFatNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:armeabi:debug:mips:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileArmeabiDebugMipsNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:armeabi:debug:x86:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileArmeabiDebugX86NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:armeabi:release:arm:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileArmeabiReleaseArmNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:armeabi:release:armv7:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileArmeabiReleaseArmv7NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:armeabi:release:fat:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileArmeabiReleaseFatNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:armeabi:release:mips:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileArmeabiReleaseMipsNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:armeabi:release:x86:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileArmeabiReleaseX86NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -5288,56 +4782,6 @@
                 <option name="name" value="compileLint" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:mips64:debug:arm:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileMips64DebugArmNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:mips64:debug:armv7:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileMips64DebugArmv7NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:mips64:debug:fat:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileMips64DebugFatNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:mips64:debug:mips:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileMips64DebugMipsNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:mips64:debug:x86:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileMips64DebugX86NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:mips64:release:arm:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileMips64ReleaseArmNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:mips64:release:armv7:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileMips64ReleaseArmv7NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:mips64:release:fat:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileMips64ReleaseFatNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:mips64:release:mips:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileMips64ReleaseMipsNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:mips64:release:x86:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileMips64ReleaseX86NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="compileMipsDebugAidl" />
               </ExternalTaskPojo>
@@ -5358,28 +4802,8 @@
                 <option name="name" value="compileMipsDebugAndroidTestSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:mips:debug:arm:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileMipsDebugArmNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:mips:debug:armv7:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileMipsDebugArmv7NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:mips:debug:fat:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileMipsDebugFatNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="compileMipsDebugJavaWithJavac" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:mips:debug:mips:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileMipsDebugMipsNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -5390,37 +4814,12 @@
                 <option name="name" value="compileMipsDebugSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:mips:debug:x86:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileMipsDebugX86NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="compileMipsReleaseAidl" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:mips:release:arm:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileMipsReleaseArmNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:mips:release:armv7:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileMipsReleaseArmv7NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:mips:release:fat:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileMipsReleaseFatNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="compileMipsReleaseJavaWithJavac" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:mips:release:mips:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileMipsReleaseMipsNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -5429,11 +4828,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="compileMipsReleaseSources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:mips:release:x86:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileMipsReleaseX86NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -5456,28 +4850,8 @@
                 <option name="name" value="compileX86DebugAndroidTestSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:x86:debug:arm:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileX86DebugArmNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:x86:debug:armv7:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileX86DebugArmv7NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:x86:debug:fat:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileX86DebugFatNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="compileX86DebugJavaWithJavac" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:x86:debug:mips:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileX86DebugMipsNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -5488,37 +4862,12 @@
                 <option name="name" value="compileX86DebugSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:x86:debug:x86:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileX86DebugX86NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="compileX86ReleaseAidl" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:x86:release:arm:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileX86ReleaseArmNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:x86:release:armv7:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileX86ReleaseArmv7NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:x86:release:fat:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileX86ReleaseFatNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="compileX86ReleaseJavaWithJavac" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:x86:release:mips:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileX86ReleaseMipsNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -5527,61 +4876,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="compileX86ReleaseSources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:x86:release:x86:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileX86ReleaseX86NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:x86_64:debug:arm:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileX86_64DebugArmNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:x86_64:debug:armv7:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileX86_64DebugArmv7NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:x86_64:debug:fat:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileX86_64DebugFatNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:x86_64:debug:mips:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileX86_64DebugMipsNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:x86_64:debug:x86:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileX86_64DebugX86NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:x86_64:release:arm:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileX86_64ReleaseArmNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:x86_64:release:armv7:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileX86_64ReleaseArmv7NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:x86_64:release:fat:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileX86_64ReleaseFatNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:x86_64:release:mips:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileX86_64ReleaseMipsNdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the C++ source 'ndklibrarysample:mainCpp' of shared library 'ndklibrarysample:x86_64:release:x86:sharedLibrary'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="compileX86_64ReleaseX86NdklibrarysampleSharedLibraryNdklibrarysampleMainCpp" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the components produced by project ':app'. [incubating]" />
@@ -7751,9 +7045,9 @@
                 <option name="name" value="prepareMipsReleaseDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare OpenCV-AndroidSamples.libraries:opencv:unspecified" />
+                <option name="description" value="Prepare OpenCV-detectedNumbers.libraries:opencv:unspecified" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareOpenCVAndroidSamplesLibrariesOpencvUnspecifiedLibrary" />
+                <option name="name" value="prepareOpenCVDetectedNumbersLibrariesOpencvUnspecifiedLibrary" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -9520,7 +8814,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="C:\Users\Vytautas\Desktop\OpenCV-AndroidSamples" value="5818189618479" />
+        <entry key="C:\Users\Vytautas\Desktop\OpenCV-detectedNumbers" value="5818510924394" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -10013,7 +9307,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/jnardari/opencv_androidsamples/activities/FaceDetectionActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/vytjan/opencv_detectedNumbers/activities/FaceDetectionActivity.java" />
       </list>
     </option>
   </component>
@@ -10048,69 +9342,19 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="OpenCV-AndroidSamples" />
+              <option name="myItemId" value="OpenCV-detectedNumbers" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="OpenCV-AndroidSamples" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenCV-AndroidSamples" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mipmap" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenCV-AndroidSamples" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenCV-AndroidSamples" />
+              <option name="myItemId" value="OpenCV-detectedNumbers" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -10120,7 +9364,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="OpenCV-AndroidSamples" />
+              <option name="myItemId" value="OpenCV-detectedNumbers" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -10134,7 +9378,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="OpenCV-AndroidSamples" />
+              <option name="myItemId" value="OpenCV-detectedNumbers" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -10146,13 +9390,13 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="opencv_androidsamples" />
+              <option name="myItemId" value="opencv_detectedNumbers" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="OpenCV-AndroidSamples" />
+              <option name="myItemId" value="OpenCV-detectedNumbers" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -10164,7 +9408,7 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="opencv_androidsamples" />
+              <option name="myItemId" value="opencv_detectedNumbers" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -10175,7 +9419,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -10187,29 +9431,6 @@
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus_5_API_23_x86" />
   </component>
   <component name="RunManager" selected="Android Application.app">
-    <configuration default="true" type="AndroidNativeRunConfigurationType" factoryName="Android Native">
-      <module name="" />
-      <option name="WORKING_DIR" value="" />
-      <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <method />
-    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -10352,32 +9573,8 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method />
     </configuration>
-    <configuration default="false" name="app-native" type="AndroidNativeRunConfigurationType" factoryName="Android Native">
-      <module name="app" />
-      <option name="WORKING_DIR" value="" />
-      <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <method />
-    </configuration>
-    <list size="2">
+    <list size="1">
       <item index="0" class="java.lang.String" itemvalue="Android Application.app" />
-      <item index="1" class="java.lang.String" itemvalue="Android Native.app-native" />
     </list>
     <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
@@ -10393,15 +9590,12 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4ce5f528-4109-44fa-be2d-ebf127ff43db" name="Default" comment="" />
-      <created>1454604024803</created>
+      <changelist id="f6dde109-d36b-4fae-994d-930a3731924d" name="Default" comment="" />
+      <created>1454869194570</created>
       <option name="number" value="Default" />
-      <updated>1454604024803</updated>
+      <updated>1454869194570</updated>
     </task>
     <servers />
   </component>
@@ -10411,14 +9605,13 @@
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15737705" sideWeight="0.4970458" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295082" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295082" sideWeight="0.5029542" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -10430,7 +9623,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1661743" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -10441,14 +9634,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
-  <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USER_GROUPS">
-      <collection />
-    </option>
-    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-      <collection />
-    </option>
-  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -10457,21 +9642,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_face_detection.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vytjan/opencv_detectedNumbers/activities/FaceDetectionActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37199125">
-          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jnardari/opencv_androidsamples/activities/FaceDetectionActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3148148">
-          <caret line="66" column="17" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.46456692">
+          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
           <folding />
         </state>
       </provider>

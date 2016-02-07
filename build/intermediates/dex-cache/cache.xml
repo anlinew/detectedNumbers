@@ -2,39 +2,39 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Vytautas\Desktop\OpenCV-AndroidSamples\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jar="C:\Users\Vytautas\Desktop\OpenCV-detectedNumbers\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
         jumboMode="false"
         revision="23.0.0"
         sha1="f8efd0096475e0daf054267b61544e10dc776503">
-        <dex dex="C:\Users\Vytautas\Desktop\OpenCV-AndroidSamples\app\build\intermediates\pre-dexed\arm\debug\classes-1f0e1ce4497b832ff3ccacd5526c9b89116fc900.jar" />
+        <dex dex="C:\Users\Vytautas\Desktop\OpenCV-detectedNumbers\app\build\intermediates\pre-dexed\arm\debug\classes-0dc2d8505fcd0dd24bc719a50987b33d0866cdcc.jar" />
+    </item>
+    <item
+        jar="C:\Users\Vytautas\Desktop\OpenCV-detectedNumbers\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="C:\Users\Vytautas\Desktop\OpenCV-detectedNumbers\app\build\intermediates\pre-dexed\arm\debug\classes-56c039f3318b38fb8b9ea3d891a7aba5fe42cb89.jar" />
     </item>
     <item
         jar="C:\Users\Vytautas\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
         jumboMode="false"
         revision="23.0.0"
         sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
-        <dex dex="C:\Users\Vytautas\Desktop\OpenCV-AndroidSamples\app\build\intermediates\pre-dexed\arm\debug\support-annotations-22.2.1-17a3ab3881dcf2ccbb55b041f182dd75f02d9b68.jar" />
+        <dex dex="C:\Users\Vytautas\Desktop\OpenCV-detectedNumbers\app\build\intermediates\pre-dexed\arm\debug\support-annotations-22.2.1-17a3ab3881dcf2ccbb55b041f182dd75f02d9b68.jar" />
     </item>
     <item
-        jar="C:\Users\Vytautas\Desktop\OpenCV-AndroidSamples\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jar="C:\Users\Vytautas\Desktop\OpenCV-detectedNumbers\app\build\intermediates\exploded-aar\OpenCV-detectedNumbers.libraries\opencv\unspecified\jars\classes.jar"
         jumboMode="false"
         revision="23.0.0"
-        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
-        <dex dex="C:\Users\Vytautas\Desktop\OpenCV-AndroidSamples\app\build\intermediates\pre-dexed\arm\debug\classes-e15bc729241a68a68a7663a71fe22ccbffefb5a2.jar" />
+        sha1="9a23cee67f3a74ecd9cc74831ce9ebe53c34220e">
+        <dex dex="C:\Users\Vytautas\Desktop\OpenCV-detectedNumbers\app\build\intermediates\pre-dexed\arm\debug\classes-062d63575e35666684a4b067881d5a8ccbc20530.jar" />
     </item>
     <item
-        jar="C:\Users\Vytautas\Desktop\OpenCV-AndroidSamples\app\build\intermediates\exploded-aar\OpenCV-AndroidSamples.libraries\opencv\unspecified\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="519cc510b9ea842530cb3163e7227b7ea57a3cc6">
-        <dex dex="C:\Users\Vytautas\Desktop\OpenCV-AndroidSamples\app\build\intermediates\pre-dexed\arm\debug\classes-d198676a38730689dd673eccebf9d0e1b218c172.jar" />
-    </item>
-    <item
-        jar="C:\Users\Vytautas\Desktop\OpenCV-AndroidSamples\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jar="C:\Users\Vytautas\Desktop\OpenCV-detectedNumbers\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
         jumboMode="false"
         revision="23.0.0"
         sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
-        <dex dex="C:\Users\Vytautas\Desktop\OpenCV-AndroidSamples\app\build\intermediates\pre-dexed\arm\debug\internal_impl-22.2.1-0af38de08fa4088ea8e567eff1d522bf2b5af945.jar" />
+        <dex dex="C:\Users\Vytautas\Desktop\OpenCV-detectedNumbers\app\build\intermediates\pre-dexed\arm\debug\internal_impl-22.2.1-91294385b80434e0d69cf56fb7acf2a59fa61496.jar" />
     </item>
 
 </items>
