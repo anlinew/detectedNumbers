@@ -5,6 +5,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.util.TimerTask;
 import java.util.UUID;
 
 import org.opencv.android.BaseLoaderCallback;
@@ -23,6 +24,7 @@ import org.opencv.imgproc.Imgproc;
 
 import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;
+import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothSocket;
 import android.content.Context;
 import android.os.Bundle;
@@ -31,6 +33,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.WindowManager;
+import android.widget.Toast;
 
 import com.vytjan.opencv_detectedNumbers.R;
 
@@ -67,7 +70,6 @@ public class FaceDetectionActivity extends Activity implements CvCameraViewListe
     private Handler handler = new Handler();
 
     //serial stuff
-    private static final String TAG = "vytasbt";
     private InputStream inStream = null;
     private OutputStream outStream = null;
     private byte[] readBuffer = new byte[1024];
@@ -142,6 +144,10 @@ public class FaceDetectionActivity extends Activity implements CvCameraViewListe
         super.onCreate(savedInstanceState);
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 
+        //bt adapter instance
+        //TODO handle turned off bluetooth...
+        CheckBt();
+
         setContentView(R.layout.activity_face_detection);
 
         mOpenCvCameraView = (CameraBridgeViewBase) findViewById(R.id.fd_activity_surface_view);
@@ -169,9 +175,13 @@ public class FaceDetectionActivity extends Activity implements CvCameraViewListe
         }
     }
 
+    @Override
     public void onDestroy() {
         super.onDestroy();
         mOpenCvCameraView.disableView();
+        try {
+            btSocket.close();
+        } catch (IOException e) {}
     }
 
     public void onCameraViewStarted(int width, int height) {
@@ -194,20 +204,17 @@ public class FaceDetectionActivity extends Activity implements CvCameraViewListe
             if (Math.round(height * mRelativeFaceSize) > 0) {
                 mAbsoluteFaceSize = Math.round(height * mRelativeFaceSize);
             }
-//            mNativeDetector.setMinFaceSize(mAbsoluteFaceSize);
         }
 
         MatOfRect faces = new MatOfRect();
 
-        if (mDetectorType == JAVA_DETECTOR) {
-            if (mJavaDetector != null)
-                mJavaDetector.detectMultiScale(mGray, faces, 1.1, 2, 2, new Size(mAbsoluteFaceSize, mAbsoluteFaceSize), new Size());
-        }
-        else {
-            Log.e(TAG, "Detection method is not selected!");
-        }
+        if (mJavaDetector != null)
+            mJavaDetector.detectMultiScale(mGray, faces, 1.1, 2, 2, new Size(mAbsoluteFaceSize, mAbsoluteFaceSize), new Size());
+
 
         Rect[] facesArray = faces.toArray();
+        writeData(facesArray.length+"");
+
         Log.i(TAG, facesArray.length+" is a number of faces detected");
         for (int i = 0; i < facesArray.length; i++)
             Imgproc.rectangle(mRgba, facesArray[i].tl(), facesArray[i].br(), FACE_RECT_COLOR, 3);
@@ -215,56 +222,123 @@ public class FaceDetectionActivity extends Activity implements CvCameraViewListe
         return mRgba;
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        Log.i(TAG, "called onCreateOptionsMenu");
-        mItemFace50 = menu.add("Face size 50%");
-        mItemFace40 = menu.add("Face size 40%");
-        mItemFace30 = menu.add("Face size 30%");
-        mItemFace20 = menu.add("Face size 20%");
-        mItemType   = menu.add(mDetectorName[mDetectorType]);
-        return true;
+
+    public void bluetoothConnect() {
+        Log.d(TAG, "Bluetooth device address: " + btDeviceAddress);
+        BluetoothDevice device = btAdapter.getRemoteDevice(btDeviceAddress);
+        Log.d(TAG, "Connecting to ... " + device);
+        btAdapter.cancelDiscovery();
+
+        try {
+            btSocket = device.createRfcommSocketToServiceRecord(MY_UUID);
+            btSocket.connect();
+            Log.d(TAG, "Connection made.");
+            Toast.makeText(getApplicationContext(), "Connected!", Toast.LENGTH_SHORT).show();
+        } catch (IOException e) {
+            Toast.makeText(getApplicationContext(), "Unable to connect!", Toast.LENGTH_SHORT).show();
+            try {
+                btSocket.close();
+            } catch (IOException e2) {
+                Log.d(TAG, "Unable to end the connection");
+            }
+            Log.d(TAG, "Socket creation failed");
+        }
+        //starts bluetooth-serial listening thread
+        beginListenForData();
     }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        Log.i(TAG, "called onOptionsItemSelected; selected item: " + item);
-        if (item == mItemFace50)
-            setMinFaceSize(0.5f);
-        else if (item == mItemFace40)
-            setMinFaceSize(0.4f);
-        else if (item == mItemFace30)
-            setMinFaceSize(0.3f);
-        else if (item == mItemFace20)
-            setMinFaceSize(0.2f);
-        else if (item == mItemType) {
-            int tmpDetectorType = (mDetectorType + 1) % mDetectorName.length;
-            item.setTitle(mDetectorName[tmpDetectorType]);
-//            setDetectorType(tmpDetectorType);
+    //instance of btsocket listener
+    public void beginListenForData()   {
+
+        try {
+            inStream = btSocket.getInputStream();
+        }catch (IOException e) {}
+
+        Thread workerThread = new Thread(new Runnable()
+        {
+            public void run()
+            {
+                while(!Thread.currentThread().isInterrupted() && !pauseSerialWorker)
+                {
+                    try
+                    {
+                        int bytesAvailable = inStream.available();
+
+                        if(bytesAvailable > 0)
+                        {
+                            byte[] packetBytes = new byte[bytesAvailable];
+                            inStream.read(packetBytes);
+                            for(int i=0; i<bytesAvailable; i++)
+                            {
+                                byte b = packetBytes[i];
+                                if(b == lineDelimiter)
+                                {
+                                    byte[] encodedBytes = new byte[readBufferPosition];
+                                    System.arraycopy(readBuffer, 0, encodedBytes, 0, encodedBytes.length);
+                                    final String data = new String(encodedBytes, "US-ASCII");
+                                    readBufferPosition = 0;
+                                    handler.post(new Runnable() {
+                                        public void run() {
+
+                                            /*if (Result.getText().toString().equals("..")) {
+                                                Result.setText(data);
+                                            } else {
+                                                Result.append("\n" + data);
+                                            }*/
+//                                            Result.setText(data);
+
+                                        }
+                                    });
+                                }else{
+                                    readBuffer[readBufferPosition++] = b;
+                                }
+                            }
+                        }
+                    }
+                    catch (IOException ex)
+                    {
+                        pauseSerialWorker = true;
+                    }
+                }
+            }
+        });
+        workerThread.start();
+    }
+
+    //write data to bt socket
+    private void writeData(String data) {
+
+        if(this.btSocket == null){
+            Log.d(TAG, "No socket: ");
+            return;
         }
-        else if (item.getItemId() == android.R.id.home) {
+        try {
+            outStream = btSocket.getOutputStream();
+        } catch (IOException e) {
+            Log.d(TAG, "Error BEFORE writting on bluetooh socket: ", e);
+        }
+
+        Log.d(TAG, "Sending string" + data);
+
+        try {
+            outStream.write(data.getBytes());
+        } catch (IOException e) {
+            Log.d(TAG, "Error writting on bluetooh socket: ", e);
+        }
+    }
+
+    private void CheckBt() {
+        btAdapter = BluetoothAdapter.getDefaultAdapter();
+
+        if (!btAdapter.isEnabled()) {
+            Toast.makeText(getApplicationContext(), "Turn on bluetooth and try again :)", Toast.LENGTH_SHORT).show();
             finish();
         }
 
-        return true;
+        if (btAdapter == null) {
+            Toast.makeText(getApplicationContext(), "You don't have bluetooth, no application for you...:(", Toast.LENGTH_SHORT).show();
+            finish();
+        }
+        bluetoothConnect();
     }
-
-    private void setMinFaceSize(float faceSize) {
-        mRelativeFaceSize = faceSize;
-        mAbsoluteFaceSize = 0;
-    }
-
-//    private void setDetectorType(int type) {
-//        if (mDetectorType != type) {
-//            mDetectorType = type;
-//
-//            if (type == NATIVE_DETECTOR) {
-//                Log.i(TAG, "Detection Based Tracker enabled");
-//                mNativeDetector.start();
-//            } else {
-//                Log.i(TAG, "Cascade detector enabled");
-//                mNativeDetector.stop();
-//            }
-//        }
-//    }
 }
