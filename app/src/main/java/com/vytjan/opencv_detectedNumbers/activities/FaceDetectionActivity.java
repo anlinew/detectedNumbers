@@ -5,7 +5,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
-import java.util.TimerTask;
+
 import java.util.UUID;
 
 import org.opencv.android.BaseLoaderCallback;
@@ -30,8 +30,6 @@ import android.content.Context;
 import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.WindowManager;
 import android.widget.Toast;
 
@@ -43,18 +41,11 @@ public class FaceDetectionActivity extends Activity implements CvCameraViewListe
     private static final Scalar    FACE_RECT_COLOR     = new Scalar(0, 255, 0, 255);
     public static final int        JAVA_DETECTOR       = 0;
 
-    private MenuItem               mItemFace50;
-    private MenuItem               mItemFace40;
-    private MenuItem               mItemFace30;
-    private MenuItem               mItemFace20;
-    private MenuItem               mItemType;
-
     private Mat                    mRgba;
     private Mat                    mGray;
     private File                   mCascadeFile;
     private CascadeClassifier      mJavaDetector;
 
-    private int                    mDetectorType       = JAVA_DETECTOR;
     private String[]               mDetectorName;
 
     private float                  mRelativeFaceSize   = 0.2f;
@@ -86,9 +77,6 @@ public class FaceDetectionActivity extends Activity implements CvCameraViewListe
                 {
                     Log.i(TAG, "OpenCV loaded successfully");
 
-                    // Load native library after(!) OpenCV initialization
-//                    System.loadLibrary("ndklibrarysample");
-
                     try {
                         // load cascade file from application resources
                         InputStream is = getResources().openRawResource(R.raw.lbpcascade_frontalface);
@@ -110,8 +98,6 @@ public class FaceDetectionActivity extends Activity implements CvCameraViewListe
                             mJavaDetector = null;
                         } else
                             Log.i(TAG, "Loaded cascade classifier from " + mCascadeFile.getAbsolutePath());
-
-
 
                         cascadeDir.delete();
 
@@ -179,9 +165,11 @@ public class FaceDetectionActivity extends Activity implements CvCameraViewListe
     public void onDestroy() {
         super.onDestroy();
         mOpenCvCameraView.disableView();
-        try {
-            btSocket.close();
-        } catch (IOException e) {}
+        if(btSocket != null){
+            try {
+                btSocket.close();
+            } catch (IOException e) {}
+        }
     }
 
     public void onCameraViewStarted(int width, int height) {
@@ -210,7 +198,6 @@ public class FaceDetectionActivity extends Activity implements CvCameraViewListe
 
         if (mJavaDetector != null)
             mJavaDetector.detectMultiScale(mGray, faces, 1.1, 2, 2, new Size(mAbsoluteFaceSize, mAbsoluteFaceSize), new Size());
-
 
         Rect[] facesArray = faces.toArray();
         writeData(facesArray.length+"");
@@ -280,13 +267,6 @@ public class FaceDetectionActivity extends Activity implements CvCameraViewListe
                                     handler.post(new Runnable() {
                                         public void run() {
 
-                                            /*if (Result.getText().toString().equals("..")) {
-                                                Result.setText(data);
-                                            } else {
-                                                Result.append("\n" + data);
-                                            }*/
-//                                            Result.setText(data);
-
                                         }
                                     });
                                 }else{
@@ -331,14 +311,14 @@ public class FaceDetectionActivity extends Activity implements CvCameraViewListe
         btAdapter = BluetoothAdapter.getDefaultAdapter();
 
         if (!btAdapter.isEnabled()) {
-            Toast.makeText(getApplicationContext(), "Turn on bluetooth and try again :)", Toast.LENGTH_SHORT).show();
-            finish();
-        }
+            if(btAdapter == null){
+                Toast.makeText(getApplicationContext(), "You don't have bluetooth, Arduino won't work...:(", Toast.LENGTH_SHORT).show();
+            } else {
+                Toast.makeText(getApplicationContext(), "Turn on bluetooth or use the app without Arduino :)", Toast.LENGTH_LONG).show();
 
-        if (btAdapter == null) {
-            Toast.makeText(getApplicationContext(), "You don't have bluetooth, no application for you...:(", Toast.LENGTH_SHORT).show();
-            finish();
+            }
+        } else {
+            bluetoothConnect();
         }
-        bluetoothConnect();
     }
 }
