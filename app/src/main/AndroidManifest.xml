@@ -25,7 +25,7 @@
 
     <application
         android:allowBackup="true"
-        android:label="Detect face"
+        android:label="@string/app_name"
         android:largeHeap="true"
         android:theme="@style/AppTheme" >
         <activity

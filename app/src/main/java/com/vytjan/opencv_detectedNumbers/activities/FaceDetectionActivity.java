@@ -69,6 +69,7 @@ public class FaceDetectionActivity extends Activity implements CvCameraViewListe
     private boolean pauseSerialWorker = false;
 
 
+    //OpenCV library loading
     private BaseLoaderCallback  mLoaderCallback = new BaseLoaderCallback(this) {
         @Override
         public void onManagerConnected(int status) {
@@ -123,7 +124,6 @@ public class FaceDetectionActivity extends Activity implements CvCameraViewListe
         Log.i(TAG, "Instantiated new " + this.getClass());
     }
 
-    /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
         Log.i(TAG, "called onCreate");
@@ -131,11 +131,11 @@ public class FaceDetectionActivity extends Activity implements CvCameraViewListe
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 
         //bt adapter instance
-        //TODO handle turned off bluetooth...
         CheckBt();
 
         setContentView(R.layout.activity_face_detection);
 
+        //add camera view to layout object
         mOpenCvCameraView = (CameraBridgeViewBase) findViewById(R.id.fd_activity_surface_view);
         mOpenCvCameraView.setCvCameraViewListener(this);
     }
@@ -161,6 +161,7 @@ public class FaceDetectionActivity extends Activity implements CvCameraViewListe
         }
     }
 
+    //handle camera view exit and BT socket closing
     @Override
     public void onDestroy() {
         super.onDestroy();
@@ -182,6 +183,8 @@ public class FaceDetectionActivity extends Activity implements CvCameraViewListe
         mRgba.release();
     }
 
+
+    //instance and counter of #faces
     public Mat onCameraFrame(CvCameraViewFrame inputFrame) {
 
         mRgba = inputFrame.rgba();
@@ -200,16 +203,20 @@ public class FaceDetectionActivity extends Activity implements CvCameraViewListe
             mJavaDetector.detectMultiScale(mGray, faces, 1.1, 2, 2, new Size(mAbsoluteFaceSize, mAbsoluteFaceSize), new Size());
 
         Rect[] facesArray = faces.toArray();
+
+        //transfer number to BT socket
         writeData(facesArray.length+"");
 
         Log.i(TAG, facesArray.length+" is a number of faces detected");
         for (int i = 0; i < facesArray.length; i++)
+            //draw a green rect around every face
             Imgproc.rectangle(mRgba, facesArray[i].tl(), facesArray[i].br(), FACE_RECT_COLOR, 3);
 
         return mRgba;
     }
 
 
+    //establish BT connection and BT socket
     public void bluetoothConnect() {
         Log.d(TAG, "Bluetooth device address: " + btDeviceAddress);
         BluetoothDevice device = btAdapter.getRemoteDevice(btDeviceAddress);
@@ -307,6 +314,7 @@ public class FaceDetectionActivity extends Activity implements CvCameraViewListe
         }
     }
 
+    //if BT is available, if BT is turned on
     private void CheckBt() {
         btAdapter = BluetoothAdapter.getDefaultAdapter();
 
@@ -315,7 +323,6 @@ public class FaceDetectionActivity extends Activity implements CvCameraViewListe
                 Toast.makeText(getApplicationContext(), "You don't have bluetooth, Arduino won't work...:(", Toast.LENGTH_SHORT).show();
             } else {
                 Toast.makeText(getApplicationContext(), "Turn on bluetooth or use the app without Arduino :)", Toast.LENGTH_LONG).show();
-
             }
         } else {
             bluetoothConnect();
